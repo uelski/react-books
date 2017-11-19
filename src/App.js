@@ -2,6 +2,25 @@ import React from 'react'
 // import * as BooksAPI from './BooksAPI'
 import './App.css'
 
+// by Sam:
+
+// components:
+// Books
+// Shelves
+// SearchForm
+
+// router functionality:
+// button to search page updating URL
+// on search filtering Books
+// on select history push to '/'
+
+// next steps:
+// import react-router-dom
+// use Route and Link
+// create components 
+// connect with booksapi
+
+
 class BooksApp extends React.Component {
   state = {
     /**
