@@ -14,25 +14,17 @@ import Search from './Search'
 // SearchForm
 
 // router functionality:
-// button to search page updating URL
-// on search filtering Books
+// on search filtering Books - connect to api
 // on select history push to '/'
 
 // next steps:
-// import react-router-dom
-// use Route and Link
-// create components 
-// connect with booksapi
+// create a bookshelves component
+// connect to api on search page
+// figure out moving books between categories
 
 
 class BooksApp extends React.Component {
   state = {
-    /**
-     * TODO: Instead of using this state variable to keep track of which page
-     * we're on, use the URL in the browser's address bar. This will ensure that
-     * users can use the browser's back and forward buttons to navigate between
-     * pages, as well as provide a good URL they can bookmark and share.
-     */
     showSearchPage: false
   }
 
